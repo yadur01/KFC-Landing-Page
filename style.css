@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "National 2";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#back{
+    width: 100%;
+    height: 100%;  
+}
+
+#back img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+#front{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    /* background-color: rgba(0, 0, 0, 0.24); */
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    padding: 1vw 11vw;  
+}
+
+#nright img{
+    width: 4vw;
+    height: 4vw;
+    object-fit: cover ;
+}
+
+#nleft{
+    width: 20%;
+    margin-right: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+    gap: 3vw;
+}
+
+#nleft button{
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: red;
+    font-weight: 600;
+    font-size: 0.8vw;
+    box-shadow: 2px 2px 2px black;
+}
+
+#container{
+    position: absolute;
+    left: 0%;
+    top: 53%;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+#conleft{
+    width: 60%;
+    padding: 2vw;
+    height: inherit;
+    /* background-color: green; */
+}
+
+#conleft h1{
+    text-transform: uppercase;
+    letter-spacing: 1vw;
+    font-size: 8vw;
+    line-height: 10vw;
+    font-weight: bold;
+}
+
+#conleft span{
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    line-height: 2vw;
+    font-size: 5vw;
+    font-weight: 100;
+}
+
+#conleft p{
+    margin: 1.4vw;
+    width: 70%;
+}
+
+#conleft #order{
+    width: 55%;
+    padding: 1vw;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#order button{
+    padding: 0.6vw 2vw;
+    border-radius: 40px;
+    border: none;
+    background-color: white;
+    color: red;
+    font-weight: 800;
+    font-size: 1.3vw;
+    box-shadow: 2px 2px 2px black;
+}
+
+#order #social{
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+#conright{
+    width: 40%;
+    height: inherit;
+    /* background-color: blue; */
+}
+
+#footer{
+    position: absolute;
+    font-size: 0.6vw;
+    left: 4%;
+    bottom: 2%;
+    /* width: 100%; */
+}
